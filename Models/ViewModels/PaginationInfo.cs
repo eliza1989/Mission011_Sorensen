@@ -1,4 +1,6 @@
-﻿using System.Diagnostics.Contracts;
+﻿//Create Pagination info that create page information variables and calcultes the number of pages necessary
+
+using System.Diagnostics.Contracts;
 
 namespace Mission011_Sorensen.Models.ViewModels
 {

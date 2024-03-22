@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Mission011_Sorensen.Models;
 
+//Create the Book Class from the database
 public partial class Book
 {
     public required int BookId { get; set; }

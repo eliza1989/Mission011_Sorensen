@@ -1,4 +1,6 @@
-﻿using System;
+﻿//This is the context file created when the database was scaffolded that allows connection to the database
+
+using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
