@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model ProjectListViewModel
+
+    <h1>Books</h1>
+
+@foreach (Book b in Model.Books)
+{
+    <h3>@b.Title</h3>
+    <ul>
+        <li>By: @b.Author</li>
+        <li>Published By: @b.Publisher</li>
+        <li>ISBN: @b.Isbn</li>
+        <li>Classification: @b.Classification</li>
+        <li>Category: @b.Category</li>
+        <li>Pages: @b.PageCount</li>
+        <li>Price: @b.Price</li>
+    </ul>
+
+}
+
+<div page-model="@Model.PaginationInfo" page-action="Index"></div>
+
+
